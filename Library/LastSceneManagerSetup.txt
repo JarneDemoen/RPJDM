@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Take Off.unity
+- path: Assets/Scenes/Takeoff.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

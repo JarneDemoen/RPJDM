@@ -36,7 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AirplaneAI.cs" />
+     <Compile Include="Assets\Scripts\AirplaneController.cs" />
+     <Compile Include="Assets\Scripts\Plane.cs" />
      <None Include="Assets\City\License.txt" />
      <None Include="Assets\Road\Convert\Three.js (Blender)\readme.txt" />
      <None Include="Assets\Road\License.txt" />
@@ -781,11 +782,17 @@
     <Reference Include="Unity.Mathematics">
         <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
         <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\jarne\Documents\UnityProjects\RPJDM\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
